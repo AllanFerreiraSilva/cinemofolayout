@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'corleone-regular';
+    src: url(fontes/Corleone-Regular.otf);
+}
+
+@font-face {
+    font-family: 'corleone-due';
+    src: url(fontes/Corleone-Due-Regular.otf);
+}
+
+#tudo {
+    width: 100%;
+    height: 930px;
+    text-align: center;
+    background: url("imagens/fundo.jpg");
+    background-size: cover;
+}
+
+
+#site {
+    width: 1000px;
+    height: 800px;
+    border: 1px #ccc solid;
+    background: #f1f1f1;
+    left: 25%;
+    top: 3%;
+    position: relative;
+    padding: 20px;
+}
+
+
+
+#topo {
+    width: 960px;
+    height: 150px;
+ 
+}
+
+#logo {
+    float: left;
+    margin-right: 60px;
+}
+
+#frase-topo {
+    color: #aeaeae;
+    font-size: 35px;
+    font-family: 'corleone-due';
+    float: left;
+}
+
+#redes {
+    margin-left: 35px;
+    float: right;
+
+
+}
+#menu{
+    float: left;
+}
+
+
+.item_menu{
+    display: inline;
+    background: #922a2d;
+    color: #fff;
+    font-family:"Corleone-Regular";
+    font-size: 35px;
+    padding: 8px 28px;
+   
+
+}
+
+#banner{
+ width:104%;
+ margin-left: -21px;
+
+}
+
+.conteudo{
+   width: 45%; 
+   height: 180px;
+   float: left;
+   margin-top: 20px;
+   padding-right: 20px;
+}
+
+.conteudo p{
+    color: #737373;
+    font-family: Corleone-Due;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.conteudo p span{
+color: #922a2d;
+font-size: 50px;
+
+
+}
+
+.conteudo img{
+    height: 120px;
+    float: left;
+    margin-right: 12px;
+
+
+}
+
+.conteudo a{
+background: #922a2d;
+color: #fff;
+text-decoration: none;
+border-radius: 15px;
+padding: 5px 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+display: block;
+width: 48%;
+margin-left: 100px;
+margin-top: 15px;
+
+}
+
+.conteudo span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+     text-align: justify;
+}
+
+#rodape{
+    text-align: center;
+    margin-top: 20px;
+    color: #9e9e9e;
+    font-family: "Corleone-Regular";
+    font-size: 25px;
+
+}
+
+.limpar{clear: both;}
+#cine{color: black; font-size: 30px;}
+#mofo{color: #922a2d; font-size: 30px;}
